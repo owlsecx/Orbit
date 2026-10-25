@@ -18,13 +18,20 @@
 
 ## 📌 Overview
 
-Network Recon Scanner
+
+Orbit is a network asset-discovery and visualization tool that maps hosts, services and their relationships into an interactive view. It aggregates scan data, builds a topology of the environment, and presents nodes and links for situational awareness. It runs as a desktop application for authorized network mapping.
 
 ---
 
 ## ✨ Features
 
-- Network discovery and active/passive reconnaissance (ARP, IPv6 NDP, ports)
+
+- Host and service discovery aggregated into a network topology
+- Interactive node-and-link visualization of the environment
+- Relationship mapping between hosts, services and subnets
+- Enrichment of nodes with metadata (ports, vendor, OS hints)
+- Export of the topology and underlying data for reporting
+- Desktop UI in the OWLSec theme with an offline --self-test
 
 ---
 
@@ -37,8 +44,11 @@ Network Recon Scanner
 
 ## 🚀 Usage
 
+
 ```bash
 ./Orbit
+./Orbit --self-test
+./Orbit --help
 ```
 
 ---
